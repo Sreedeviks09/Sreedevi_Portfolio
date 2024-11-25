@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio Details</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- =======================================================
+    * Template Name: DevFolio
+    * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+    * Updated: Aug 07 2024 with Bootstrap v5.3.3
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+<header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1 class="sitename">Portfolio-Details</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero">Home<br></a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Certificates">Certificates</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+    </div>
+</header>
+
+<main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+        <div class="container d-lg-flex justify-content-between align-items-center">
+            <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current">Portfolio Details</li>
+                </ol>
+            </nav>
+        </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                    {
+                        "loop": true,
+                        "speed": 600,
+                        "autoplay": {
+                            "delay": 5000
+                        },
+                        "slidesPerView": "auto",
+                        "navigation": {
+                            "nextEl": ".swiper-button-next",
+                            "prevEl": ".swiper-button-prev"
+                        },
+                        "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                        }
+                    }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/Python-Django/SignIn.jpg" alt="SignIn">
+                    </div>
+
+                     <div class="swiper-slide">
+                        <img src="assets/img/portfolio/Python-Django/Signup.jpg" alt="Signup">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/Python-Django/Signin-Up-welcome.jpg" alt="Welcome">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="assets/img/portfolio/Python-Django/adminsignup.jpg" alt="Admin">
+                    </div>
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="row justify-content-between gy-4 mt-4">
+
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="portfolio-description">
+                        <h2>Signup and Signin System Using Python-Django</h2>
+                        <p>
+                           Signup and Signin System Using Python-Django
+
+                            This project is a web-based authentication system built with Python-Django that includes functionality for user registration (signup) and user login (signin).
+                            It also includes features to manage user sessions securely.
+                            Additionally, the system is integrated with a Django superuser for admin-level control and provides the option for users to update their profiles via a portfolio feature.
+                        </p>
+                        <p>
+                            Technologies Used:
+                                          Backend: Python, Django Framework
+                                          Frontend: HTML, CSS, Bootstrap
+                                          Database: Admin(Super User)
+                                          Version Control: Git/GitHub (for version control and project collaboration)
+                        </p>
+                        <p>
+                            Features
+                            User Signup:
+
+                                Allows new users to register by providing essential details such as username, email, and password.
+                                Passwords are securely hashed using Django's inbuilt authentication framework.
+                            User Signin:
+
+                                Authenticated users can log in to access personalized content.
+                                Implements session management to ensure secure user login.
+                            Superuser Functionality:
+
+                                Admins can create a superuser account using Django's createsuperuser command.
+                                The superuser has full control over managing user accounts, resetting passwords, and viewing user activity in the admin panel.
+                            Portfolio Management:
+
+                                Users can upload and update their portfolio information.
+                                Portfolios may include a bio, professional details, profile picture, and links to personal projects.
+                            Security:
+
+                                Implements form validation to prevent malicious input.
+                                Ensures proper session expiration and secure logout functionality.
+                            Responsive Design:
+
+                                The user interface is built using HTML, CSS, and Bootstrap, making it user-friendly and responsive.
+                        </p>
+                        <p>
+                            Project Structure:
+                            views.py: Contains the logic for handling requests and rendering the appropriate HTML templates.
+                                      Views for IndexPage, SignUpPage, SignInPage and Signout.
+                            urls.py:   URL routing defines how requests are mapped to views (URLs for Index, SignUp, SignIn and Signout).
+                            models.py: Defines the Users model with fields like username, email, and date that password and conformpassword core attributes.
+                            templates:
+
+                                        index.html: Displays a list of welcome form and logout link is their.
+                                        signin.html: Displays a loginpage.
+                                        signup.html: Provides a form to Signuppage.
+                            files:
+
+                            CSS (style.css): Custom styles to make the application visually appealing.
+                        </p>
+                        <p>
+                            Key Learning Outcomes:
+                            Django Fundamentals: Learned how to build a web application with Django’s MVT (Model-View-Template) architecture.
+                                                 Mastered Django models, forms, views, and templates for creating dynamic web applications.
+                            Database Handling:   Used Django’s ORM (Object-Relational Mapping) for database operations, including adding, updating, and deleting records.
+                                                 Demonstrated the ability to integrate the app with a relational database (SQLite).
+                            Frontend Development: Created interactive and responsive forms using HTML and Bootstrap for the user interface.
+                                                  Integrated custom styles in CSS for better UI/UX.
+                            Version Control: Used Git for version control and GitHub for managing and sharing the code.
+                        </p>
+
+                        <p>
+                            This project demonstrates expertise in full-stack web development with Django, focusing on e-commerce functionality and responsive design.
+                            It showcases skills in back-end development, front-end design, and database management.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Signup and Signin System Using Python-Django</strong></li>
+                            <li><strong>Tool : </strong>  Backend: Python, Django Framework
+                                                          </a></li>
+                            <li><strong>Frontend: HTML, CSS, Bootstrap</strong> Database: Admin(Super User)</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+</main>
+
+<footer id="footer" class="footer accent-background">
+
+    <div class="container">
+        <div class="copyright text-center ">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Analyst_Dev</strong>
+                <span>All Rights Reserved</span>
+            </p>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://www.instagram.com/momentsmade111?utm_source=qr&igsh=ZTVraW9ydXU3aHk3"
+               class="instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/sreedevi-ks/"
+               class="linkedin">
+                <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/Sreedeviks09"
+               class="linkedin">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            Designed by <a href="https://bootstrapmade.com/">Sreedevi K S</a>
+        </div>
+    </div>
+
+</footer>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/typed.js/typed.umd.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

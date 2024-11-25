@@ -1621,6 +1621,45 @@ section,
   color: var(--accent-color);
 }
 
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.portfolio-info {
+    padding: 15px;
+    background: #fff;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.glightbox.preview-link,
+.details-link {
+    display: inline-block;
+    margin: 10px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.glightbox.preview-link:hover,
+.details-link:hover {
+    color: #0056b3;
+}
+
+
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
